@@ -1,0 +1,13 @@
+2025-04-09T18:43:45.607+0000 I CONTROL  [initandlisten] MongoDB starting : pid=66686 port=27017 dbpath=/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/data/db 64-bit host=codespaces-88075d
+2025-04-09T18:43:45.607+0000 I CONTROL  [initandlisten] db version v3.6.8
+2025-04-09T18:43:45.607+0000 I CONTROL  [initandlisten] git version: 8e540c0b6db93ce994cc548f000900bdc740f80a
+2025-04-09T18:43:45.607+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.1.1f  31 Mar 2020
+2025-04-09T18:43:45.607+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2025-04-09T18:43:45.607+0000 I CONTROL  [initandlisten] modules: none
+2025-04-09T18:43:45.607+0000 I CONTROL  [initandlisten] build environment:
+2025-04-09T18:43:45.607+0000 I CONTROL  [initandlisten]     distarch: x86_64
+2025-04-09T18:43:45.607+0000 I CONTROL  [initandlisten]     target_arch: x86_64
+2025-04-09T18:43:45.607+0000 I CONTROL  [initandlisten] options: { processManagement: { fork: true }, storage: { dbPath: "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/data/db" }, systemLog: { destination: "file", path: "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/data/db/mongodb.log" } }
+2025-04-09T18:43:45.607+0000 I STORAGE  [initandlisten] exception in initAndListen: DBPathInUse: Unable to lock the lock file: /workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/data/db/mongod.lock (Resource temporarily unavailable). Another mongod instance is already running on the /workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/data/db directory, terminating
+2025-04-09T18:43:45.607+0000 I CONTROL  [initandlisten] now exiting
+2025-04-09T18:43:45.607+0000 I CONTROL  [initandlisten] shutting down with code:100
